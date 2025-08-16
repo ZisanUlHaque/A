@@ -1,0 +1,163 @@
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/* nav bar */
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
+}
+.logo{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 34px;
+}
+.header{
+    background-image: url('Assets/Hero-bg.png');
+    padding: 10px 60px;
+    height: 600px;
+    width: 900;
+}
+.p1{
+    text-align: center;
+}
+h1{
+    padding: 70px 0 0 0;
+    font-size: 65px;
+    text-align: center;
+}
+
+/* main style */
+.main{
+    width:1140px ;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position:  right;
+    padding: 60px 40px;
+
+    
+}
+.h3{
+    font-size: 42px;
+}
+.paragraph{
+    font-size: 24px;
+    color: #252432;
+}
+.wc-mini{
+    margin-bottom: 60px;
+    display: flex;
+    gap: 50px;
+}
+.wc-img{
+    border-radius: 30px;
+}
+.linee{
+    font-size: 38px;
+    text-align: center;
+}
+.third-bg{
+    padding: 50px 80px;
+    border-radius: 24px;
+    background-color: #a8a5ff;
+}
+.skills{
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.skill-title{
+    margin: 0 auto;
+    font-size: 85px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.skill-disciption{
+    font-size: 30px;
+    color: #4e4d50;
+}
+.designers{
+    display: flex;
+}
+.designer{
+    padding: 30px;
+    box-shadow: 2px 6px 50px 0 rgb(237, 223, 213);
+    border-radius: 10px;
+}
+.avatar{
+    display: flex;
+    gap: 10px;
+}
+.stars{
+    display: flex;
+}
+.gol{
+    border-radius: 50%
+}
+.ready-p{
+    text-align: center;
+}
+.form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    font-weight: bold;
+}
+.form-head{
+    font-size: 95px;
+}
+.input[type="text"]{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    padding: 60px 20px;
+    margin-bottom: 60px;
+}
+.footer-logo{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 34px;
+}
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-menu li a {
+  text-decoration: none;
+  color: #4e4d50;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-menu li a:hover {
+  color: #4E47FF;
+}
